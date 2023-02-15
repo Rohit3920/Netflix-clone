@@ -21,7 +21,7 @@
 
 <body>
     <header class="showcase position-relative">
-        <div class="container">
+        <div class="container position-relative">
 
             <div class="showcase-top position-relative">
                 <img src="sourceFiles/logo.png" class="netflix-logo" alt="Netflix-LOGO">
@@ -38,12 +38,12 @@
                 <a href="#signIn" class="btn btn-danger">sign in</a>
             </div> <!--     showcase-top end -->
 
-            <div class="showcase-content position-relative flex-row justify-content-center text-center">
+            <div class="showcase-content position-relative flex-row justify-content-lg-center text-center">
                 <h1>Unlimited movies, TV shows and more.</h1>
                 <h3>Watch anywhere. Cancel anytime</h3>
                 <p>Ready to watch? Enter your email to create or restart your membership.</p>
 
-                <form class="from-inline">
+                <form class="from-inline position-relative">
                     <div class="form-group">
                         <input type="email" class="form-control-lg" name="Email" id="email-id"
                             placeholder="Enter Email Address">
@@ -56,33 +56,78 @@
         </div>
     </header>
 
-    <section>
-        <div class="card-tv">
-            <div>
-                <h1>Enjoy on your TV.</h1>
-            <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+
+
+    <section class="position-relative">
+
+        <div class=" card-1">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 col-lg-6  m-5 m-auto">
+                        <h1>Enjoy on your TV.</h1>
+                        <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+                    </div>
+
+
+                    <div class="col-12 col-lg-6 m-auto  m-5 position-relative">
+                        <img src="sourceFiles/tv.png" alt="Netflix-Image" class="my-0" />
+                        <video src="video-1" alt="Netflix-Tv" class="position-absolute">
+                            <source src="sourceFiles/tv-video.m4v"  type="video/m4v" />
+                        </video>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="tv.png" alt="">
-                <video src="video-1" alt="Netflix-Tv">
-                    <source src="sourceFiles/tv-video.m4v">
-                </video>
+        </div>
+        </div>
+
+        <div class=" card-2">
+            <div class=" container">
+                <div class="row ">
+                    <div class="col-12 col-lg-6   my-auto ">
+                        <img src="sourceFiles/download-img.jpg" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6   my-auto">
+                        <h1>Download your shows to watch offline.</h1>
+                        <h3>Save your favourites easily and always have something to watch.</h3>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <div class=" card-3">
+            <div class=" container">
+                <div class="row m-5">
+                    <div class="col-12 col-lg-6   my-auto">
+                        <h1>Watch everywhere.</h1>
+                        <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+                    </div>
 
-        <div class="card-download">
-
+                    <div class="col-12 col-lg-6   my-auto">
+                        <img src="sourceFiles/watch-img.png" alt="watch-img">
+                        <video src="video-2">
+                            <source src="sourceFiles/watch-video.m4v" type="video/m4v">
+                        </video>
+                    </div>
+                </div>
+            </div>
         </div>
 
+        <div class="card-4">
+            <div class=" container">
+                <div class="row m-5">
+                    <div class="col-12 col-lg-6   my-auto">
+                        <img src="sourceFiles/children-img.jpg" alt="">
+                    </div>
 
-        <div class="card-watch">
-
-        </div>
-
-
-        <div class="card-children">
-
+                    <div class="col-12 col-lg-6  my-auto">
+                        <h1>Create profiles for children.</h1>
+                        <h3>
+                            Send children on adventures with their favourite characters in a space made just for
+                            them—free with your membership.
+                        </h3>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
