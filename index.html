@@ -21,26 +21,41 @@
 
 <body>
     <header class="showcase position-relative">
-        <div class="showcase-top position-relative">
-            <img src="sourceFiles/logo.png" class="netflix-logo" alt="Netflix-LOGO">
+        <div class="container">
 
-            <div class="langauge btn btn-danger">
-                <i class="fa fa-light fa-globe"></i>
+            <div class="showcase-top position-relative">
+                <img src="sourceFiles/logo.png" class="netflix-logo" alt="Netflix-LOGO">
 
-                <select name="Lang" class="lang d-none d-md-inline">
-                    <option value="english">English</option>
-                    <option value="hindi">hindi</option>
-                </select>
+                <div class="langauge btn">
+                    <i class="fa fa-light fa-globe"></i>
+
+                    <select name="Lang" class="lang d-none d-md-inline">
+                        <option value="english">English</option>
+                        <option value="hindi">hindi</option>
+                    </select>
+                </div>
+
+                <a href="#signIn" class="btn btn-danger">sign in</a>
+            </div> <!--     showcase-top end -->
+
+            <div class="showcase-content position-relative flex-row justify-content-center text-center">
+                <h1>Unlimited movies, TV shows and more.</h1>
+                <h3>Watch anywhere. Cancel anytime</h3>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+                <form class="from-inline">
+                    <div class="form-group">
+                        <input type="email" class="form-control-lg" name="Email" id="email-id" placeholder="Enter Email Address">
+                    <a href="#" class="btn btn-lg btn-danger">GET STARTED ></a>
+                    </div>
+                </form>
             </div>
 
-            <a href="#signIn" class="btn btn-danger">sign in</a>
-        </div>      <!--     showcase-top end -->
 
-        <div class="showcase-content">
-            
         </div>
-
     </header>
+
+
 </body>
 
 </html>
